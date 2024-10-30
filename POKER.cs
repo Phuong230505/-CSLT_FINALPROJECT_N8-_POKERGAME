@@ -42,7 +42,7 @@ namespace CK
                 {
                     SoundPlayer music = new SoundPlayer();
                     var assembly = Assembly.GetExecutingAssembly();
-                    Stream soundStream = assembly.GetManifestResourceStream("CK.brass-fanfare-with-timpani-and-winchimes-reverberated-146260-VEED.wav");
+                    Stream soundStream = assembly.GetManifestResourceStream("PROJECT_POKERGAME_N8.brass-fanfare-with-timpani-and-winchimes-reverberated-146260-VEED.wav");
                     music.Stream = soundStream;
                     music.PlayLooping();
 
@@ -159,7 +159,7 @@ namespace CK
             {
                 SoundPlayer musicOpening = new SoundPlayer();
                 var assembly = Assembly.GetExecutingAssembly();
-                Stream soundStream = assembly.GetManifestResourceStream("CK.Wallpaper(chosic.com).wav");
+                Stream soundStream = assembly.GetManifestResourceStream("PROJECT_POKERGAME_N8.Wallpaper(chosic.com).wav");
                 musicOpening.Stream = soundStream;
 
                 musicOpening.Play();
@@ -988,7 +988,7 @@ namespace CK
                 int numPlayers = 0;
                 SoundPlayer sound = new SoundPlayer();
                 var assembly = Assembly.GetExecutingAssembly();
-                Stream soundStream = assembly.GetManifestResourceStream("CK.mix-3m41s-audio-joinercom_0vmZcQv6.wav");
+                Stream soundStream = assembly.GetManifestResourceStream("PROJECT_POKERGAME_N8.mix-3m41s-audio-joinercom_0vmZcQv6.wav");
                 sound.Stream = soundStream;
 
                 sound.Play();
